@@ -12,4 +12,6 @@ installation hosted elsewhere.
  * Path to WP install on remote host
  * MySQL credentials, DB name, hostname
 
+
+
  This is a work in progress!
