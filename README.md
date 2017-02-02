@@ -18,10 +18,9 @@ https://github.com/jwilder/nginx-proxy
 ###Required Information:
  * Virtualhost - the URL you want your new container to use.
  * Remote WP install URL
+ * MySQL credentials, DB name, hostname
  * ssh/ftp credentials for remote host
  * Path to WP install on remote host
- * MySQL credentials, DB name, hostname
 
 
-
- This is a work in progress!
+This is currently a non-functional work-in-progress
