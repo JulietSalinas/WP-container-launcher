@@ -9,7 +9,7 @@ installation hosted elsewhere.
 ###Required Information:
  * Remote WP install URL
  * ssh/ftp credentials for remote host
- * Path to WP install on remote hoste
+ * Path to WP install on remote host
  * MySQL credentials, DB name, hostname
 
  This is a work in progress!
