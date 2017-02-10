@@ -1,4 +1,4 @@
-#Wordpress to Docker Container Import Tool
+#Super Simple Wordpress Docker Container Launcher
 
 ##Purpose
 
