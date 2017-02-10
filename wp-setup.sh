@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 if [ -z $1 ]; then
 	echo "What is the name (URL) of your site?"
@@ -18,7 +18,7 @@ elif [ $2 = "destroy" ]; then
 	echo "Destroying container and volumes"
 	docker-compose -f $SITENAME/docker-compose.yml down
 	VOLNAME=`echo $SITENAME|tr -d '.'`
-	docker volume rm ${VOLNAME}_apache_data 
+	docker volume rm ${VOLNAME}_apache_data
 	docker volume rm ${VOLNAME}_mariadb_data
 	docker volume rm ${VOLNAME}_php_data
 	docker volume rm ${VOLNAME}_wordpress_data
@@ -51,5 +51,3 @@ echo "URL: http://$SITENAME/wp-admin/"
 echo "Username: Administrator"
 echo "Password: $WPPASS"
 echo "Administrator email: $EMAILADDR"
-
-
