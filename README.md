@@ -1,6 +1,6 @@
-#Super Simple Wordpress Docker Container Launcher
+# Super Simple Wordpress Docker Container Launcher
 
-##Purpose
+## Purpose
 
 This project makes it extremely easy to spin up docker containers running
 Wordpress.  
@@ -14,12 +14,12 @@ Docker containers:
 https://github.com/jwilder/nginx-proxy
 
 
-###Prerequisites:
+### Prerequisites:
  * docker
  * docker-compose
 
 
-##Instructions:
+## Instructions:
 
 Clone the repo:
 `git clone https://github.com/JulietSalinas/WP-container-launcher.git`
@@ -51,7 +51,7 @@ Additional output is logged to ./wp-setup.log
 
 You can spin up as many containers as you like with different domain names.
 
-###Other Tasks
+### Other Tasks
 
 If you wish to stop containers for a given domain, you can run:
 `./wp-setup.sh domainname.com down`
@@ -59,7 +59,7 @@ If you wish to stop containers for a given domain, you can run:
 If you wish to tear down a container and all volumes, you can run:
 `./wp-setup.sh domainname.com destroy`
 
-##TODO
+## TODO
 
 Configure custom Wordpress image with a preselected set of plugins -
 Specifically, a good import/export plugin, since this project is mainly focused
